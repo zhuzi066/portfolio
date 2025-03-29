@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Pro:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Sofia Pro', sans-serif;
+    background-color: #FFD6FF;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #E7C6FF;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #333;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+section {
+    padding: 40px;
+    background-color: #C8B6FF;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #BBD0FF;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+}
+
+@media (max-width: 768px) {
+    body {
+        background-color: #B8C0FF;
+    }
+    section {
+        padding: 20px;
+    }
+    header h1 {
+        font-size: 2em;
+    }
+}
